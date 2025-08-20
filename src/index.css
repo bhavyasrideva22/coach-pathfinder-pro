@@ -17,24 +17,38 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 262 75% 58%;
+    --primary-foreground: 0 0% 100%;
+    --primary-glow: 262 75% 68%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 240 6% 10%;
+    --secondary-foreground: 0 0% 98%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 240 5% 96%;
+    --muted-foreground: 240 4% 46%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 262 60% 96%;
+    --accent-foreground: 262 75% 58%;
+
+    --success: 142 76% 36%;
+    --success-foreground: 0 0% 100%;
+
+    --warning: 38 92% 50%;
+    --warning-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 220 13% 91%;
+    --input: 220 13% 91%;
+    --ring: 262 75% 58%;
+
+    /* Custom coaching theme colors */
+    --coaching-gradient: linear-gradient(135deg, hsl(262 75% 58%), hsl(220 75% 65%));
+    --coaching-gradient-soft: linear-gradient(180deg, hsl(262 60% 98%), hsl(240 30% 98%));
+    --hero-shadow: 0 20px 40px -10px hsl(262 75% 58% / 0.3);
+    --card-shadow: 0 8px 30px -8px hsl(262 20% 20% / 0.1);
+    --glow-shadow: 0 0 40px hsl(262 75% 68% / 0.4);
 
     --radius: 0.5rem;
 
